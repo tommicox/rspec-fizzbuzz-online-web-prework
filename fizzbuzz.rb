@@ -4,12 +4,10 @@ def fizzbuzz(theNumber)
   if theNumber % 3 == "Fizz"
     return "Fizz"
   end
-  
     if theNumber % 5 == "Buzz" 
       return "Buzz"
     end
-    
-   if theNumber  % 3 && theNumber % 5 == "FizzBuzz"
+   if theNumber  % 15 == "FizzBuzz"
      return "FizzBuzz"
   end
 end
