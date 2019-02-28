@@ -4,10 +4,13 @@ def fizzbuzz(theNumber)
   if theNumber % 3 == 0
     return "Fizz"
   end
+  
     if theNumber % 5 == 0 
       return "Buzz"
     end
+    
    if theNumber % 15 == 0 
      return "FizzBuzz"
   end
+  
 end
