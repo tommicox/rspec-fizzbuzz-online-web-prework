@@ -9,7 +9,7 @@ def fizzbuzz(theNumber)
       return "Buzz"
     end
     
-   if theNumber  % 3 &&  == "FizzBuzz"
+   if theNumber  % 3 && theNumber % 5 == "FizzBuzz"
      return "FizzBuzz"
   end
 end
